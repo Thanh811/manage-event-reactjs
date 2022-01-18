@@ -21,7 +21,6 @@ const DetailEventPage = () => {
       <EventContent>
         <p>{event.description}</p>
       </EventContent>
-      <EventSummary title={event.title}></EventSummary>
     </>
   );
 };
